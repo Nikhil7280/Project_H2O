@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="card text-center" style="background-color: rgba(245,245,245,0.4);">
+        <div class="card-header" style="opacity: 1;">Welcome To the Payment Page</div>
+        <div class="card-body">
+
+      <!-- <h5 class="card-title">Special title treatment</h5> -->
+      <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet blanditiis, inventore alias mollitia eius consequatur expedita voluptatem? Animi ratione delectus, porro eius tempora hic explicabo perferendis. Perspiciatis, numquam nisi.</p> -->
+        <form action="{{url_for('users.payment')}}" method="POST">
+            <script
+            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key={{public_key}}
+            data-amount="1999"
+            data-name="Water Bill"
+            data-description="Pay"
+            data-image="https://images.unsplash.com/photo-1514984879728-be0aff75a6e8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=35dcb9bb6f3e097541dd732a99c44766&auto=format&fit=crop&w=1576&q=80"
+            data-locale="auto"
+            data-zip-code="true">
+            </script>
+        </form>
+      
+
+        </div>
+    
+    </div>
+{% endblock content %}
