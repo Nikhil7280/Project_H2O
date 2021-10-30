@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a48832a9b2.js" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color: rgb(143, 138, 131);background: url('data:image/jpeg;base64,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') no-repeat fixed center; -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;">
+
+    <!-- <div class="p-3 mb-2 bg-secondary text-white"></div> -->
+    <div style="margin: auto;justify-content: space-evenly ">
+        <nav class="navbar navbar-expand navbar-light" style="background-color: #e3f2fd; font-size: 1.2rem; justify-content: center;">
+            <li class="nav active">
+            <a class="nav-link" href="{{url_for('core.index')}}">Home</a>
+            </li>
+            <li class="nav">
+            <a class="nav-link" href="{{url_for('core.info')}}">About</a>
+            </li>
+            <li class="nav">
+                <a class="nav-link" href="{{url_for('core.contactus')}}">Contact Us</a>
+            </li>
+            {% if current_user.is_authenticated %}
+            <li class="nav">
+            <a class="nav-link" href="{{url_for('users.logout')}}">LogOut</a>
+            </li>
+            <li class="nav">
+            <a class="nav-link" href="{{url_for('users.account')}}">Account</a>
+            </li>
+            <li class="nav">
+            <a class="nav-link" href="{{url_for('users.enterdata')}}">Enter Data</a>
+            </li>
+            {% else %}
+            <li class="nav">
+                <a class="nav-link"href="{{url_for('users.login')}}">LogIn</a>
+            </li>
+            <li class="nav">
+                <a class="nav-link" href="{{url_for('users.register')}}">Register</a>
+            </li>
+            <li class="nav">
+                <a class="nav-link" href="{{url_for('users.payment_home')}}">PayBill</a>
+            </li>
+            {% endif %}
+        </nav>
+        <div class="container">
+            {% block content %}
+            
+            {% endblock content %}
+        </div>
+    </div>
+    <footer>
+        <div class="footer text-center" style="position: fixed; left: 0; bottom: 0; width: 100%; height: 2rem; background-color: rgb(0, 0, 0); text-align: center; color: rgb(173, 163, 161);">
+            
+            <p><span style="padding-bottom: 4px;padding-top: 4px; text-align: center;font-size: 1.8rem;">&copy;website design with flask</span></p>
+            
+        </div>
+    </footer>
+</body>
+</html>
