@@ -11,6 +11,7 @@ So to reduce the inefficient management of water resources, we have built a webs
 
 ## How We Built it
 We made this website using HTML, CSS, BootStrap Classes, Ajax, Flask and for the ML Model we used Linear Regression from Scikit-Learn and Pickle to save the Model.
+We generated our Random Data to train the ML Model as we didn't find any appropriate data for our project
 
 ## Challenges We Ran Into
 * Getting Appropriate Data for ML Model
@@ -34,4 +35,11 @@ Our ideation for this project at this time is limited to the above features. But
 •    Provided a centralized system can help pace of the development of green and brown field smart cities in water supply.
 •    This website can be made available on an app which will be compatible both on android and iOS providing a one stop solution to the customers in a hassle free manner.
 
+## Try it Out
+As of now it only runs on local boot(http://127.0.0.1:500/) as we were not able to deploy it on Heroku
 
+## ScreenShot of Our Website
+![](images/Screenshot_from_2021-10-31_01-53-28.png)
+![](images/Screenshot_from_2021-10-31_01-54-38.png)
+![](images/Screenshot_from_2021-10-31_02-19-55.png)
+You can find more ScreenShots in the Images folder
